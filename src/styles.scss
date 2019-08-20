@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '../node_modules/juxtaposejs/build/css/juxtapose.css';
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,800');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+
+
+h3 {
+  font-weight: 600;
+}
+
+h2, h4, p, span, div {
+  font-family: 'Open Sans', sans-serif;
+}
+
+span, li {
+  font-size: 12px;
+}
+
+span {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 22px;
+  color: #484848;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 800;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #484848;
+}
+
+a {
+  color: #456823;
+  text-decoration: none;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}

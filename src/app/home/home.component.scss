@@ -1,0 +1,77 @@
+.splashPage {
+  background-color: #7ac143;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 1.5rem 0.25rem 2rem 0.25rem;
+
+}
+
+.introButton {
+  border: 3px solid #fff;
+  color: #fff;
+  border-radius: 8px;
+  text-transform: none;
+  margin-bottom: 30px;
+  padding: 20px 30px;
+  background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  cursor: pointer;
+
+  .buttonText {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  &:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+}
+
+.logoContainer {
+  padding-top: 5vh;
+  width: 80vw;
+  height: 100%;
+  .osmTeamLogo {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.critLogoContainer {
+  width: 100%;
+  padding-bottom: 1rem;
+  .critLogo {
+    max-width: 120px;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  .logoContainer {
+    padding-top: 0px;
+    width: 75vw;
+  }
+
+  .introButton {
+    padding: 15px 20px;
+    .buttonText {
+      font-size: 1.2rem;
+    }
+  }
+}

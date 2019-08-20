@@ -1,0 +1,13 @@
+<app-header></app-header>
+<div class="compareBody">
+  <h1 class="compareTitle">{{ compare?.title}}</h1>
+  <p>{{ compare?.desc }}</p>
+
+  <div id="juxtHolder">
+    <div class="juxtapose">
+      <img [attr.data-label]="compare?.images[0].year" src="{{compare?.images[0].url}}" alt="{{compare?.images[0].alt}}" />
+      <img [attr.data-label]="compare?.images[1].year" src="{{compare?.images[1].url}}" alt="{{compare?.images[1].alt}}" />
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

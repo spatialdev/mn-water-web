@@ -1,0 +1,19 @@
+<header>
+  <div class="headerDiv">
+    <div style="text-align: center; display: table-cell; vertical-align: middle; cursor: pointer;">
+      <h1 (click)="handleHeaderTap()" class="header">Minnesota Water 2019</h1>
+    </div>
+  </div>
+  <div class="subBar">
+    <h2 *ngIf="appRouter.url == '/images'" class="subHeader">View comparisons of water between 2011 and 2019</h2>
+    <button (click)="handleBackTap()" *ngIf="appRouter.url != '/images'" class="backButton">
+      <svg focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+          <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"></path>
+          <path fill="none" d="M0 0h24v24H0V0z"></path>
+      </svg>
+      <span class="backSpan">
+        Back to list
+      </span>
+    </button>
+  </div>
+</header>

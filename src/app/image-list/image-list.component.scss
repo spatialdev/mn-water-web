@@ -1,0 +1,25 @@
+.listBody {
+  padding: 1rem;
+  background-color: #F4F4F4;
+
+  .imagesList {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 500px;
+    .imageItem {
+      margin: 1rem 0;
+      .cardID {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0 10px;
+        color: #484848;
+        opacity: .27;
+        font-size: 40px;
+        margin: 0;
+        letter-spacing: -3px;
+      }
+    }
+  }
+}

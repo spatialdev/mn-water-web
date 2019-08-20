@@ -1,0 +1,15 @@
+.compareBody {
+  padding: 1rem;
+  background-color: #F4F4F4;
+  text-align: center;
+  min-height: calc(100vh - 240px);
+
+  .compareTitle {
+    margin: 0.5rem 0 1rem 0;
+  }
+
+  #juxtHolder {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}

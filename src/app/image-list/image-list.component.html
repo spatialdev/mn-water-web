@@ -1,0 +1,16 @@
+<app-header></app-header>
+<div class="listBody">
+  <ul class="imagesList">
+    <li *ngFor="let item of images" (click)="handleImageItemTap(item.id)" class="imageItem">
+      <mat-card class="example-card">
+        <mat-card-header>
+          <img mat-card-avatar class="avatarImg" src="{{ item.images[0].url }}" alt="{{ item.images[0].alt }}" />
+          <mat-card-title>{{ item.title }}</mat-card-title>
+          <mat-card-subtitle>{{ item.desc }}</mat-card-subtitle>
+        </mat-card-header>
+        <div class="cardID">{{ item.id }}</div>
+      </mat-card>
+    </li>
+  </ul>
+</div>
+<app-footer></app-footer>

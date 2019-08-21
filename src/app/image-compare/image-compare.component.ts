@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewChild, AfterViewInit, ElementRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { ImageComparison } from '../shared/image-comparison';
 import { ImagesConfig } from '../shared/images-config';
@@ -23,6 +23,9 @@ export class ImageCompareComponent implements OnInit, AfterViewInit, OnDestroy {
     this.appRouter = router;
   }
 
+  @ViewChild('juxtapose', {static: false}) $juxtapose;
+  @ViewChild('juxtHolder', {static: false}) $juxtapose_container;
+
   ngOnInit() {
     this.imagesConfig = new ImagesConfig();
 
@@ -35,17 +38,15 @@ export class ImageCompareComponent implements OnInit, AfterViewInit, OnDestroy {
 
   ngAfterViewInit() {
     juxtapose.scanPage();
-
-    const $juxtapose = document.querySelectorAll('.juxtapose');
-    const $juxtapose_container = document.querySelectorAll('#juxtHolder');
+    let self = this;
 
     window.onresize = function() {
-      let juxtapose_ratio = $juxtapose[0].offsetHeight / $juxtapose[0].offsetWidth;
-      let new_width = $juxtapose_container[0].offsetWidth;
+      let juxtapose_ratio = self.$juxtapose.nativeElement.offsetHeight / self.$juxtapose.nativeElement.offsetWidth;
+      let new_width = self.$juxtapose_container.nativeElement.offsetWidth;
       let new_height = new_width * juxtapose_ratio;
 
-      $juxtapose[0].style.width = new_width + "px";
-      $juxtapose[0].style.height = new_height + "px";
+      self.$juxtapose.nativeElement.style.width = new_width + "px";
+      self.$juxtapose.nativeElement.style.height = new_height + "px";
     }
   }
 

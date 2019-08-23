@@ -16,12 +16,12 @@ export class ImagesConfig {
         desc: 'Numerous features have been added to represent ponds near Detroit Lakes, MN.',
         images: [
           {
-            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_a/a_2011.png',
+            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_a/a_2011.jpeg',
             alt: '',
             year: '2011'
           },
           {
-            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_a/a_2019.png',
+            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_a/a_2019.jpeg',
             alt: '',
             year: '2019'
           }
@@ -30,15 +30,15 @@ export class ImagesConfig {
       {
         id: 2,
         title: 'Shifting Riverine Features',
-        desc: 'This feature, representing a stretch of the Minnesota River has been altered to better reflect the true  watercourse.',
+        desc: 'This feature, representing a stretch of the Minnesota River, has been altered to better reflect the true  watercourse.',
         images: [
           {
-            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_b/b_2011.png',
+            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_b/b_2011.jpeg',
             alt: '',
             year: '2011'
           },
           {
-            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_b/b_2019.png',
+            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_b/b_2019.jpeg',
             alt: '',
             year: '2019'
           }
@@ -50,12 +50,12 @@ export class ImagesConfig {
         desc: 'These features’ geometries have been altered within the Minnesota Valley National Wildlife Refuge.',
         images: [
           {
-            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_c/c_2011.png',
+            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_c/c_2011.jpeg',
             alt: '',
             year: '2011'
           },
           {
-            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_c/c_2019.png',
+            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_c/c_2019.jpeg',
             alt: '',
             year: '2019'
           }
@@ -67,12 +67,12 @@ export class ImagesConfig {
         desc: 'Wetland features have been added to in this area outside Ortonville, MN.',
         images: [
           {
-            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_d/d_2011.png',
+            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_d/d_2011.jpeg',
             alt: '',
             year: '2011'
           },
           {
-            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_d/d_2019.png',
+            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_d/d_2019.jpeg',
             alt: '',
             year: '2019'
           }
@@ -84,12 +84,12 @@ export class ImagesConfig {
         desc: 'Linear riverine features representing the Cottonwood River have been adjusted to aerial imagery near Marshall, MN.',
         images: [
           {
-            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_e/e_2011.png',
+            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_e/e_2011.jpeg',
             alt: '',
             year: '2011'
           },
           {
-            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_e/e_2019.png',
+            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_e/e_2019.jpeg',
             alt: '',
             year: '2019'
           }
@@ -101,12 +101,12 @@ export class ImagesConfig {
         desc: 'Linear riverine features have been adjusted to aerial imagery near Currie, MN.',
         images: [
           {
-            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_f/f_2011.png',
+            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_f/f_2011.jpeg',
             alt: '',
             year: '2011'
           },
           {
-            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_f/f_2019.png',
+            url: 'https://mn-water-images.s3-us-west-2.amazonaws.com/comparison_f/f_2019.jpeg',
             alt: '',
             year: '2019'
           }

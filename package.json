@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href=/mn-water-web/",
+    "build": "ng build --prod --base-href=https://water.osmquality.io",
     "deploy": "npm run-script build && npx ngh",
     "test": "ng test",
     "lint": "ng lint",

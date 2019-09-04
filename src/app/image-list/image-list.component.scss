@@ -1,6 +1,7 @@
 .listBody {
   padding: 1rem;
   background-color: #F4F4F4;
+  min-height: calc(100vh - 240px);
 
   .imagesList {
     list-style-type: none;

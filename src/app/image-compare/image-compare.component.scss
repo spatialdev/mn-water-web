@@ -11,5 +11,9 @@
   #juxtHolder {
     margin-top: 1rem;
     width: 100%;
+    .juxtapose {
+      max-width: 1000px;
+      margin: auto;
+    }
   }
 }
